@@ -241,7 +241,7 @@ const Index = () => {
                 rel="noopener noreferrer"
                 aria-label="Open LinkedIn profile"
               >
-                <Linkedin className="w-5 h-5" />
+                <Linkedin className="w-5 h-5" color="black" />
                 <span>LinkedIn</span>
               </a>
             </Button>
@@ -255,7 +255,7 @@ const Index = () => {
                 href="mailto:szaniawska.malgorzata@gmail.com"
                 aria-label="Send an email to Gosia"
               >
-                <Mail className="w-5 h-5" />
+                <Mail className="w-5 h-5" color="black" />
                 <span>szaniawska.malgorzata@gmail.com</span>
               </a>
             </Button>
