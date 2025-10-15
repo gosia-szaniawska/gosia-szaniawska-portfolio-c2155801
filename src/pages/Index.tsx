@@ -216,16 +216,16 @@ const Index = () => {
           </h2>
           <div className="space-y-4 text-lg text-muted-foreground mb-6">
             <p>
-              I've worked fully remote since 2017 (8+ years), operating async across EMEA and the US. I take on B2B contracts, invoice through my own company, and can travel for key workshops, offsites, or launches.
+              I've worked <span className="bg-gradient-to-r from-pastel-blue via-pastel-violet to-pastel-pink px-2 py-1 rounded">fully remote since 2017 (8+ years)</span>, operating async across EMEA and the US. I take on B2B contracts, invoice through my own company, and can travel for key workshops, offsites, or launches.
             </p>
             <ul className="list-disc pl-6 space-y-2">
               <li>Async-first, timezone-flexible (EMEA ↔ US)</li>
-              <li>B2B contracts; I handle invoicing and taxes via my company</li>
+              <li>B2B contracts; I handle <span className="bg-gradient-to-r from-pastel-blue via-pastel-violet to-pastel-pink px-2 py-1 rounded">invoicing and taxes via my company</span></li>
               <li>Comfortable with distributed teams, clear SLAs, and documented workflows</li>
               <li>Travel-ready for on-site collaboration when it matters</li>
             </ul>
             <p>
-              If you're a top-tier team with a high editorial bar and measurable goals, reach out! Let's see if we're the right fit.
+              If you're a top-tier team with a <span className="bg-gradient-to-r from-pastel-blue via-pastel-violet to-pastel-pink px-2 py-1 rounded">high editorial bar and measurable goals</span>, reach out! Let's see if we're the right fit.
             </p>
           </div>
           <div className="flex flex-wrap gap-3">
