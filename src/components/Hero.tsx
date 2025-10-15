@@ -21,7 +21,7 @@ const Hero = () => {
           Gosia Szaniawska-Schiavo Portfolio
         </Badge>
         
-        <h1 className="text-4xl sm:text-5xl lg:text-6xl leading-tight">
+        <h1 className="text-2xl sm:text-3xl lg:text-4xl leading-tight">
           Transformative communicator who can turn complex tech into 5× growth through data-driven storytelling and effective AI-powered content management.
         </h1>
         
