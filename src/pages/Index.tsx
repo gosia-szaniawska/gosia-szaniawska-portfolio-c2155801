@@ -47,7 +47,7 @@ const Index = () => {
     },
     {
       icon: Sparkles,
-      title: "+30% higher AI Search visibility",
+      title: "+30% higher AI search visibility",
       description: "Outperforming direct competitors",
     },
     {
@@ -57,7 +57,7 @@ const Index = () => {
     },
     {
       icon: Trophy,
-      title: "+186% Top 3 keywords",
+      title: "+186% top 3 keywords uplift",
       description: "700 → 2,000 rankings",
     },
     {
@@ -97,7 +97,7 @@ const Index = () => {
     },
     {
       icon: FileText,
-      title: "Editorial Team ×7",
+      title: "Editorial team ×7",
       description: "Managed writers, researchers, SEO & outreach specialists",
     },
   ];
