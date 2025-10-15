@@ -27,16 +27,35 @@ const Hero = () => {
       </div>
       
       <div 
-        className="aspect-[4/5] rounded-[var(--radius)] overflow-hidden shadow-lg"
+        className="aspect-[4/5] rounded-[var(--radius)] overflow-hidden shadow-lg relative"
         style={{ background: 'var(--gradient-portrait)' }}
         aria-label="Profile portrait area"
       >
-        {portraitSrc && (
+        {portraitSrc ? (
           <img
             src={portraitSrc}
             alt="Portrait of Gosia Szaniawska-Schiavo"
             className="w-full h-full object-cover"
           />
+        ) : (
+          <div className="w-full h-full flex flex-col items-center justify-center p-8 text-center">
+            <img
+              src="/placeholder.svg"
+              alt="Upload your portrait"
+              className="w-32 h-32 mb-4 opacity-50"
+            />
+            <p className="text-muted-foreground mb-4">Upload your portrait</p>
+            <label htmlFor="portrait-upload" className="cursor-pointer inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2">
+              Choose File
+            </label>
+            <input
+              id="portrait-upload"
+              type="file"
+              accept="image/*"
+              onChange={handleImageUpload}
+              className="hidden"
+            />
+          </div>
         )}
       </div>
     </header>
