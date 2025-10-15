@@ -138,7 +138,7 @@ const Index = () => {
       samples: [
         { title: "Virtual shopping assistants", url: "https://www.tidio.com/blog/virtual-shopping-assistant/", thumbnail: shoppingAssistantThumbnail, description: "Detailed exploration of AI-powered personal shoppers revolutionizing online retail customer experiences." },
         { title: "Chatbot use cases in business", url: "https://www.tidio.com/blog/chatbot-for-business/", thumbnail: chatbotBusinessThumbnail, description: "Practical applications of conversational AI across industries to streamline operations and boost customer satisfaction." },
-        { title: "AI for customer service", url: "https://www.tidio.com/blog/ai-in-customer-communication/", thumbnail: aiCustomerServiceThumbnail, description: "Comprehensive guide to leveraging artificial intelligence for enhanced customer support and communication efficiency." },
+        { title: "Chatbot marketing", url: "https://www.tidio.com/blog/chatbot-marketing/", thumbnail: aiCustomerServiceThumbnail, description: "Strategic guide to leveraging conversational AI for marketing automation, lead generation, and customer engagement." },
       ],
     },
     {
