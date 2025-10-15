@@ -17,20 +17,12 @@ const Hero = () => {
   return (
     <header className="grid lg:grid-cols-[1.2fr_0.9fr] gap-8 lg:gap-10 items-center mb-16 lg:mb-20">
       <div className="space-y-5">
-        <Badge className="text-sm px-4 py-2 bg-gradient-to-r from-pastel-blue via-pastel-violet to-pastel-pink border-border/50">
-          Gosia Szaniawska-Schiavo Portfolio
-        </Badge>
-        
-        <h1 className="text-2xl sm:text-3xl lg:text-4xl leading-tight">
-          Transformative communicator who can turn complex tech into 5× growth through data-driven storytelling and effective AI-powered content management.
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl leading-tight font-bold">
+          Gosia Szaniawska-Schiavo: Portfolio
         </h1>
         
         <p className="text-lg lg:text-xl text-muted-foreground">
-          Experienced in designing editorial systems, leading cross-functional campaigns, and positioning brands as trusted thought leaders. Dedicated to shaping narratives around technologies that make global communication clearer, more human, and more impactful.
-        </p>
-        
-        <p className="text-base lg:text-lg">
-          Passionate about turning complex tech into stories people actually want to read ;)
+          Transformative communicator who can turn complex tech into 5× growth through data-driven storytelling and effective AI-powered content management.
         </p>
         
         <div className="flex flex-wrap gap-3 items-center pt-2">
