@@ -156,6 +156,29 @@ const Index = () => {
       <main className="max-w-[1120px] mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-16">
         <Hero />
 
+        {/* About Me Section */}
+        <section className="mb-16 lg:mb-24" aria-labelledby="about-title">
+          <h2 id="about-title" className="text-3xl sm:text-4xl lg:text-5xl mb-6">
+            About me
+          </h2>
+          <div className="space-y-4 text-lg text-muted-foreground">
+            <p>
+              I'm a content manager, editor, and writer that turns complex tech into stories people actually want to read across various industries: from B2B SaaS to AI and translation tech.
+            </p>
+            <p>In the last 8+ years:</p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>I've led editorial teams, scaled SEO-driven growth, and ran content ops like a well-oiled machine (without killing creativity).</li>
+              <li>I've thrived in both SEO & GEO, designing editorial systems, and leading cross-functional campaigns.</li>
+              <li>I've positioned brands as trusted thought leaders with data-driven storytelling, thought-leadership pieces, and case studies.</li>
+              <li>I've created and edited content that resonates emotionally and drives engagement + measurable results.</li>
+              <li>I've gain experience in creating multiple content formats: blog posts, landing pages, email streams, ebooks, gated content, long-form & short-form.</li>
+            </ul>
+            <p>
+              What makes me tick? First and foremost, I'm dedicated to shaping narratives around technologies that make global communication clearer, more human, and more impactful.
+            </p>
+          </div>
+        </section>
+
         {/* Metrics Section */}
         <section className="mb-16 lg:mb-24" aria-labelledby="metrics-title">
           <h2 id="metrics-title" className="text-3xl sm:text-4xl lg:text-5xl mb-6">
