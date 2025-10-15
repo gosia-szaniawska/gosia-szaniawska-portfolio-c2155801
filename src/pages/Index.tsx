@@ -171,7 +171,7 @@ const Index = () => {
               <li>I've thrived in both SEO & GEO, designing editorial systems, and leading cross-functional campaigns.</li>
               <li>I've positioned brands as trusted thought leaders with data-driven storytelling, thought-leadership pieces, and case studies.</li>
               <li>I've created and edited content that resonates emotionally and drives engagement + measurable results.</li>
-              <li>I've gain experience in creating multiple content formats: blog posts, landing pages, email streams, ebooks, gated content, long-form & short-form.</li>
+              <li>I've gained experience in creating multiple content formats: blog posts, landing pages, email streams, ebooks, gated content, long-form & short-form.</li>
             </ul>
             <p>
               What makes me tick? First and foremost, I'm dedicated to shaping narratives around technologies that make global communication clearer, more human, and more impactful.
