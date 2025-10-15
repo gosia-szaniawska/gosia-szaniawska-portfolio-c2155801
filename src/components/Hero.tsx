@@ -26,9 +26,6 @@ const Hero = () => {
         </p>
         
         <div className="flex flex-wrap gap-3 items-center pt-2">
-          <label htmlFor="headshot" className="text-sm text-muted-foreground cursor-pointer">
-            Optional: add/replace photo →
-          </label>
           <input
             id="headshot"
             name="headshot"
