@@ -18,6 +18,23 @@ import {
   Mail,
 } from "lucide-react";
 
+// Thumbnail imports
+import metaverseThumbnail from "@/assets/thumbnails/metaverse.jpg";
+import aiDatingThumbnail from "@/assets/thumbnails/ai-dating.jpg";
+import grammarThumbnail from "@/assets/thumbnails/grammar.jpg";
+import instagramChatbotThumbnail from "@/assets/thumbnails/instagram-chatbot.jpg";
+import chatbotScriptsThumbnail from "@/assets/thumbnails/chatbot-scripts.jpg";
+import createChatbotThumbnail from "@/assets/thumbnails/create-chatbot.jpg";
+import ebookAiChatbotsThumbnail from "@/assets/thumbnails/ebook-ai-chatbots.jpg";
+import ebookEcommerceThumbnail from "@/assets/thumbnails/ebook-ecommerce.jpg";
+import aiHallucinationsThumbnail from "@/assets/thumbnails/ai-hallucinations.jpg";
+import visualAiThumbnail from "@/assets/thumbnails/visual-ai.jpg";
+import aiBiasesThumbnail from "@/assets/thumbnails/ai-biases.jpg";
+import shoppingAssistantThumbnail from "@/assets/thumbnails/shopping-assistant.jpg";
+import chatbotBusinessThumbnail from "@/assets/thumbnails/chatbot-business.jpg";
+import aiCustomerServiceThumbnail from "@/assets/thumbnails/ai-customer-service.jpg";
+import caseStudyThumbnail from "@/assets/thumbnails/case-study.jpg";
+
 const Index = () => {
   const metrics = [
     {
@@ -81,57 +98,57 @@ const Index = () => {
     {
       title: "Digital PR pieces written by me",
       samples: [
-        { title: "Metaverse (Digital PR)", url: "https://www.tidio.com/blog/metaverse/" },
-        { title: "AI dating apps (Digital PR)", url: "https://www.tidio.com/blog/ai-dating-apps/" },
-        { title: "Grammar mistakes & brand trust (Digital PR)", url: "https://www.tidio.com/blog/common-grammar-mistakes/" },
+        { title: "Metaverse (Digital PR)", url: "https://www.tidio.com/blog/metaverse/", thumbnail: metaverseThumbnail },
+        { title: "AI dating apps (Digital PR)", url: "https://www.tidio.com/blog/ai-dating-apps/", thumbnail: aiDatingThumbnail },
+        { title: "Grammar mistakes & brand trust (Digital PR)", url: "https://www.tidio.com/blog/common-grammar-mistakes/", thumbnail: grammarThumbnail },
       ],
     },
     {
       title: "SEO-optimized pieces written by me",
       samples: [
-        { title: "Instagram chatbots (SEO)", url: "https://www.tidio.com/blog/instagram-chatbot/" },
-        { title: "Chatbot scripts (SEO)", url: "https://www.tidio.com/blog/chatbot-scripts/" },
-        { title: "Create a chatbot for a website (SEO)", url: "https://www.tidio.com/blog/how-to-create-a-chatbot-for-a-website/" },
+        { title: "Instagram chatbots (SEO)", url: "https://www.tidio.com/blog/instagram-chatbot/", thumbnail: instagramChatbotThumbnail },
+        { title: "Chatbot scripts (SEO)", url: "https://www.tidio.com/blog/chatbot-scripts/", thumbnail: chatbotScriptsThumbnail },
+        { title: "Create a chatbot for a website (SEO)", url: "https://www.tidio.com/blog/how-to-create-a-chatbot-for-a-website/", thumbnail: createChatbotThumbnail },
       ],
     },
     {
       title: "Ebooks written by me",
       samples: [
-        { title: "AI-powered & rule-based chatbots (eBook)", url: "https://drive.google.com/file/d/1ft8SfsTmnDVHslAYXheNsuk9jcZjvcjz/view?usp=sharing" },
-        { title: "Prep e‑commerce for BFCM + Blueprints (eBook)", url: "https://drive.google.com/file/d/16treO_aMwubLHUigYuRmBnxFgG6_e4i2/view?usp=sharing" },
+        { title: "AI-powered & rule-based chatbots (eBook)", url: "https://drive.google.com/file/d/1ft8SfsTmnDVHslAYXheNsuk9jcZjvcjz/view?usp=sharing", thumbnail: ebookAiChatbotsThumbnail },
+        { title: "Prep e‑commerce for BFCM + Blueprints (eBook)", url: "https://drive.google.com/file/d/16treO_aMwubLHUigYuRmBnxFgG6_e4i2/view?usp=sharing", thumbnail: ebookEcommerceThumbnail },
       ],
     },
     {
       title: "Digital PR pieces edited by me",
       samples: [
-        { title: "AI hallucinations (Digital PR – edited)", url: "https://www.tidio.com/blog/ai-hallucinations/" },
-        { title: "Visual AI models examples (Digital PR – edited)", url: "https://www.tidio.com/blog/generative-ai-dall-e-examples/" },
-        { title: "AI biases (Digital PR – edited)", url: "https://www.tidio.com/blog/ai-biases/" },
+        { title: "AI hallucinations (Digital PR – edited)", url: "https://www.tidio.com/blog/ai-hallucinations/", thumbnail: aiHallucinationsThumbnail },
+        { title: "Visual AI models examples (Digital PR – edited)", url: "https://www.tidio.com/blog/generative-ai-dall-e-examples/", thumbnail: visualAiThumbnail },
+        { title: "AI biases (Digital PR – edited)", url: "https://www.tidio.com/blog/ai-biases/", thumbnail: aiBiasesThumbnail },
       ],
     },
     {
       title: "SEO-optimized pieces edited by me",
       samples: [
-        { title: "Virtual shopping assistants (SEO – edited)", url: "https://www.tidio.com/blog/virtual-shopping-assistant/" },
-        { title: "Chatbot use cases in business (SEO – edited)", url: "https://www.tidio.com/blog/chatbot-for-business/" },
-        { title: "AI for customer service (SEO – edited)", url: "https://www.tidio.com/blog/ai-in-customer-communication/" },
+        { title: "Virtual shopping assistants (SEO – edited)", url: "https://www.tidio.com/blog/virtual-shopping-assistant/", thumbnail: shoppingAssistantThumbnail },
+        { title: "Chatbot use cases in business (SEO – edited)", url: "https://www.tidio.com/blog/chatbot-for-business/", thumbnail: chatbotBusinessThumbnail },
+        { title: "AI for customer service (SEO – edited)", url: "https://www.tidio.com/blog/ai-in-customer-communication/", thumbnail: aiCustomerServiceThumbnail },
       ],
     },
     {
       title: "Case studies edited by me",
       samples: [
-        { title: "Integratec – Case Study", url: "https://www.tidio.com/blog/integratec-case-study/" },
-        { title: "Gecko Hospitality – Case Study", url: "https://www.tidio.com/blog/gecko-hospitality-case-study/" },
-        { title: "eye-oo – Case Study", url: "https://www.tidio.com/blog/eye-oo-case-study/" },
-        { title: "Bella Santé – Case Study", url: "https://www.tidio.com/blog/bella-sante-case-study/" },
-        { title: "Wulff Beltton – Case Study", url: "https://www.tidio.com/blog/wulff-beltton-case-study/" },
-        { title: "ADT – Case Study", url: "https://www.tidio.com/blog/adt-case-study/" },
-        { title: "Endeksa – Case Study", url: "https://www.tidio.com/blog/endeksa-case-study/" },
-        { title: "Suitor – Case Study", url: "https://www.tidio.com/blog/suitor-case-study/" },
-        { title: "Shockbyte – Case Study", url: "https://www.tidio.com/blog/shockbyte-case-study/" },
-        { title: "Lyro – Case Study", url: "https://www.tidio.com/blog/lyro-case-study/" },
-        { title: "Procosmet – Case Study", url: "https://www.tidio.com/blog/procosmet-case-study/" },
-        { title: "Integrating ticketing into your CS stack (original research)", url: "https://www.tidio.com/blog/integrating-ticketing-into-your-cs-stack/" },
+        { title: "Integratec – Case Study", url: "https://www.tidio.com/blog/integratec-case-study/", thumbnail: caseStudyThumbnail },
+        { title: "Gecko Hospitality – Case Study", url: "https://www.tidio.com/blog/gecko-hospitality-case-study/", thumbnail: caseStudyThumbnail },
+        { title: "eye-oo – Case Study", url: "https://www.tidio.com/blog/eye-oo-case-study/", thumbnail: caseStudyThumbnail },
+        { title: "Bella Santé – Case Study", url: "https://www.tidio.com/blog/bella-sante-case-study/", thumbnail: caseStudyThumbnail },
+        { title: "Wulff Beltton – Case Study", url: "https://www.tidio.com/blog/wulff-beltton-case-study/", thumbnail: caseStudyThumbnail },
+        { title: "ADT – Case Study", url: "https://www.tidio.com/blog/adt-case-study/", thumbnail: caseStudyThumbnail },
+        { title: "Endeksa – Case Study", url: "https://www.tidio.com/blog/endeksa-case-study/", thumbnail: caseStudyThumbnail },
+        { title: "Suitor – Case Study", url: "https://www.tidio.com/blog/suitor-case-study/", thumbnail: caseStudyThumbnail },
+        { title: "Shockbyte – Case Study", url: "https://www.tidio.com/blog/shockbyte-case-study/", thumbnail: caseStudyThumbnail },
+        { title: "Lyro – Case Study", url: "https://www.tidio.com/blog/lyro-case-study/", thumbnail: caseStudyThumbnail },
+        { title: "Procosmet – Case Study", url: "https://www.tidio.com/blog/procosmet-case-study/", thumbnail: caseStudyThumbnail },
+        { title: "Integrating ticketing into your CS stack (original research)", url: "https://www.tidio.com/blog/integrating-ticketing-into-your-cs-stack/", thumbnail: caseStudyThumbnail },
       ],
     },
   ];
