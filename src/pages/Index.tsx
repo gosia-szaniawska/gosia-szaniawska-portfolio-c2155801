@@ -33,6 +33,7 @@ import aiBiasesThumbnail from "@/assets/thumbnails/ai-biases.jpg";
 import shoppingAssistantThumbnail from "@/assets/thumbnails/shopping-assistant.jpg";
 import chatbotBusinessThumbnail from "@/assets/thumbnails/chatbot-business.jpg";
 import aiCustomerServiceThumbnail from "@/assets/thumbnails/ai-customer-service.jpg";
+import chatbotMarketingThumbnail from "@/assets/thumbnails/chatbot-marketing.jpg";
 import bellaSanteThumbnail from "@/assets/thumbnails/bella-sante.jpg";
 import lyroThumbnail from "@/assets/thumbnails/lyro.jpg";
 import ticketingResearchThumbnail from "@/assets/thumbnails/ticketing-research.jpg";
@@ -138,7 +139,7 @@ const Index = () => {
       samples: [
         { title: "Virtual shopping assistants", url: "https://www.tidio.com/blog/virtual-shopping-assistant/", thumbnail: shoppingAssistantThumbnail, description: "Detailed exploration of AI-powered personal shoppers revolutionizing online retail customer experiences." },
         { title: "Chatbot use cases in business", url: "https://www.tidio.com/blog/chatbot-for-business/", thumbnail: chatbotBusinessThumbnail, description: "Practical applications of conversational AI across industries to streamline operations and boost customer satisfaction." },
-        { title: "Chatbot marketing", url: "https://www.tidio.com/blog/chatbot-marketing/", thumbnail: aiCustomerServiceThumbnail, description: "Strategic guide to leveraging conversational AI for marketing automation, lead generation, and customer engagement." },
+        { title: "Chatbot marketing", url: "https://www.tidio.com/blog/chatbot-marketing/", thumbnail: chatbotMarketingThumbnail, description: "Strategic guide to leveraging conversational AI for marketing automation, lead generation, and customer engagement." },
       ],
     },
     {
