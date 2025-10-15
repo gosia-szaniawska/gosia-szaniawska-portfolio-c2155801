@@ -163,7 +163,7 @@ const Index = () => {
           </h2>
           <div className="space-y-4 text-lg text-muted-foreground">
             <p>
-              I'm a content manager, editor, and writer that turns complex tech into stories people actually want to read across various industries: from B2B SaaS to AI and translation tech.
+              I'm a content manager, editor, and writer that turns complex tech into stories people actually want to read. I've worked across various industries: from B2B SaaS to AI and translation tech.
             </p>
             <p>In the last 8+ years:</p>
             <ul className="list-disc pl-6 space-y-2">
