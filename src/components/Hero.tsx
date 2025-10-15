@@ -24,18 +24,6 @@ const Hero = () => {
         <p className="text-lg lg:text-xl text-muted-foreground">
           Transformative communicator who can turn complex tech into 5× growth through data-driven storytelling and effective, AI-powered content management.
         </p>
-        
-        <div className="flex flex-wrap gap-3 items-center pt-2">
-          <input
-            id="headshot"
-            name="headshot"
-            type="file"
-            accept="image/*"
-            onChange={handleImageUpload}
-            className="text-sm file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-secondary file:text-foreground hover:file:bg-secondary/80 cursor-pointer"
-            aria-label="Upload a profile photo"
-          />
-        </div>
       </div>
       
       <div 
