@@ -142,7 +142,7 @@ const Index = () => {
       ],
     },
     {
-      title: "Case studies edited by me",
+      title: "Case studies and thought leadership pieces edited by me",
       samples: [
         { title: "Bella Santé", url: "https://www.tidio.com/blog/bella-sante-case-study/", thumbnail: bellaSanteThumbnail },
         { title: "Lyro", url: "https://www.tidio.com/blog/lyro-case-study/", thumbnail: lyroThumbnail },
