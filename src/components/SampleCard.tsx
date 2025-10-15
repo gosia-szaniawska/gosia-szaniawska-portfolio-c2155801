@@ -4,11 +4,12 @@ interface SampleCardProps {
   title: string;
   url: string;
   thumbnail?: string;
+  description?: string;
 }
 
-const SampleCard = ({ title, url, thumbnail }: SampleCardProps) => {
+const SampleCard = ({ title, url, thumbnail, description }: SampleCardProps) => {
   return (
-    <article className="flex gap-3 items-center bg-card border border-border/50 rounded-2xl p-3 shadow-sm hover:shadow-md transition-shadow">
+    <article className="flex gap-3 items-start bg-card border border-border/50 rounded-2xl p-3 shadow-sm hover:shadow-md transition-shadow">
       <div
         className="w-14 h-14 rounded-xl flex items-center justify-center flex-shrink-0 border border-border/50 overflow-hidden"
         style={thumbnail ? {} : { background: 'conic-gradient(from 120deg, hsl(var(--pastel-blue)), hsl(var(--pastel-violet)), hsl(var(--pastel-pink)))' }}
@@ -25,11 +26,16 @@ const SampleCard = ({ title, url, thumbnail }: SampleCardProps) => {
           href={url}
           target="_blank"
           rel="noopener noreferrer"
-          className="font-semibold text-foreground hover:text-primary transition-colors no-underline block truncate"
+          className="font-semibold text-foreground hover:text-primary transition-colors no-underline block"
           aria-label={`Open sample: ${title}`}
         >
           {title}
         </a>
+        {description && (
+          <p className="text-sm text-muted-foreground mt-1 line-clamp-2">
+            {description}
+          </p>
+        )}
       </div>
     </article>
   );

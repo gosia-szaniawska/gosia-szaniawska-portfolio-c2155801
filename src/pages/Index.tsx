@@ -105,48 +105,48 @@ const Index = () => {
     {
       title: "Digital PR pieces written by me",
       samples: [
-        { title: "Metaverse", url: "https://www.tidio.com/blog/metaverse/", thumbnail: metaverseThumbnail },
-        { title: "AI dating apps", url: "https://www.tidio.com/blog/ai-dating-apps/", thumbnail: aiDatingThumbnail },
-        { title: "Grammar mistakes & brand trust", url: "https://www.tidio.com/blog/common-grammar-mistakes/", thumbnail: grammarThumbnail },
+        { title: "Metaverse", url: "https://www.tidio.com/blog/metaverse/", thumbnail: metaverseThumbnail, description: "Comprehensive exploration of virtual worlds, digital economies, and the future of immersive online experiences." },
+        { title: "AI dating apps", url: "https://www.tidio.com/blog/ai-dating-apps/", thumbnail: aiDatingThumbnail, description: "In-depth analysis of artificial intelligence transforming modern romance and relationship-building platforms." },
+        { title: "Grammar mistakes & brand trust", url: "https://www.tidio.com/blog/common-grammar-mistakes/", thumbnail: grammarThumbnail, description: "Insightful PR analysis about the business impact of language accuracy in professional and brand communication." },
       ],
     },
     {
       title: "SEO-optimized pieces written by me",
       samples: [
-        { title: "Instagram chatbots", url: "https://www.tidio.com/blog/instagram-chatbot/", thumbnail: instagramChatbotThumbnail },
-        { title: "Chatbot scripts", url: "https://www.tidio.com/blog/chatbot-scripts/", thumbnail: chatbotScriptsThumbnail },
-        { title: "Create a chatbot for a website", url: "https://www.tidio.com/blog/how-to-create-a-chatbot-for-a-website/", thumbnail: createChatbotThumbnail },
+        { title: "Instagram chatbots", url: "https://www.tidio.com/blog/instagram-chatbot/", thumbnail: instagramChatbotThumbnail, description: "Complete guide to automating Instagram engagement and customer interactions with intelligent chatbot solutions." },
+        { title: "Chatbot scripts", url: "https://www.tidio.com/blog/chatbot-scripts/", thumbnail: chatbotScriptsThumbnail, description: "Strategic templates and conversational frameworks for building effective automated customer service dialogues." },
+        { title: "Create a chatbot for a website", url: "https://www.tidio.com/blog/how-to-create-a-chatbot-for-a-website/", thumbnail: createChatbotThumbnail, description: "Step-by-step technical guide for implementing AI-powered chatbots to enhance website visitor engagement." },
       ],
     },
     {
       title: "Ebooks written by me",
       samples: [
-        { title: "AI-powered & rule-based chatbots", url: "https://drive.google.com/file/d/1ft8SfsTmnDVHslAYXheNsuk9jcZjvcjz/view?usp=sharing", thumbnail: ebookAiChatbotsThumbnail },
-        { title: "Prep e‑commerce for BFCM + Blueprints", url: "https://drive.google.com/file/d/16treO_aMwubLHUigYuRmBnxFgG6_e4i2/view?usp=sharing", thumbnail: ebookEcommerceThumbnail },
+        { title: "AI-powered & rule-based chatbots", url: "https://drive.google.com/file/d/1ft8SfsTmnDVHslAYXheNsuk9jcZjvcjz/view?usp=sharing", thumbnail: ebookAiChatbotsThumbnail, description: "Comprehensive comparison of intelligent conversational AI versus traditional rule-based automation systems." },
+        { title: "Prep e‑commerce for BFCM + Blueprints", url: "https://drive.google.com/file/d/16treO_aMwubLHUigYuRmBnxFgG6_e4i2/view?usp=sharing", thumbnail: ebookEcommerceThumbnail, description: "Strategic playbook with actionable blueprints for maximizing Black Friday and Cyber Monday e-commerce success." },
       ],
     },
     {
       title: "Digital PR pieces edited by me",
       samples: [
-        { title: "AI hallucinations", url: "https://www.tidio.com/blog/ai-hallucinations/", thumbnail: aiHallucinationsThumbnail },
-        { title: "Visual AI models examples", url: "https://www.tidio.com/blog/generative-ai-dall-e-examples/", thumbnail: visualAiThumbnail },
-        { title: "AI biases", url: "https://www.tidio.com/blog/ai-biases/", thumbnail: aiBiasesThumbnail },
+        { title: "AI hallucinations", url: "https://www.tidio.com/blog/ai-hallucinations/", thumbnail: aiHallucinationsThumbnail, description: "Critical examination of when artificial intelligence generates false or misleading information and mitigation strategies." },
+        { title: "Visual AI models examples", url: "https://www.tidio.com/blog/generative-ai-dall-e-examples/", thumbnail: visualAiThumbnail, description: "Showcase of cutting-edge generative AI capabilities through DALL-E and other visual content creation models." },
+        { title: "AI biases", url: "https://www.tidio.com/blog/ai-biases/", thumbnail: aiBiasesThumbnail, description: "Deep dive into systemic prejudices in machine learning algorithms and ethical implications for technology development." },
       ],
     },
     {
       title: "SEO-optimized pieces edited by me",
       samples: [
-        { title: "Virtual shopping assistants", url: "https://www.tidio.com/blog/virtual-shopping-assistant/", thumbnail: shoppingAssistantThumbnail },
-        { title: "Chatbot use cases in business", url: "https://www.tidio.com/blog/chatbot-for-business/", thumbnail: chatbotBusinessThumbnail },
-        { title: "AI for customer service", url: "https://www.tidio.com/blog/ai-in-customer-communication/", thumbnail: aiCustomerServiceThumbnail },
+        { title: "Virtual shopping assistants", url: "https://www.tidio.com/blog/virtual-shopping-assistant/", thumbnail: shoppingAssistantThumbnail, description: "Detailed exploration of AI-powered personal shoppers revolutionizing online retail customer experiences." },
+        { title: "Chatbot use cases in business", url: "https://www.tidio.com/blog/chatbot-for-business/", thumbnail: chatbotBusinessThumbnail, description: "Practical applications of conversational AI across industries to streamline operations and boost customer satisfaction." },
+        { title: "AI for customer service", url: "https://www.tidio.com/blog/ai-in-customer-communication/", thumbnail: aiCustomerServiceThumbnail, description: "Comprehensive guide to leveraging artificial intelligence for enhanced customer support and communication efficiency." },
       ],
     },
     {
       title: "Case studies and thought leadership pieces edited by me",
       samples: [
-        { title: "Bella Santé", url: "https://www.tidio.com/blog/bella-sante-case-study/", thumbnail: bellaSanteThumbnail },
-        { title: "Lyro", url: "https://www.tidio.com/blog/lyro-case-study/", thumbnail: lyroThumbnail },
-        { title: "Integrating ticketing into your CS stack", url: "https://www.tidio.com/blog/integrating-ticketing-into-your-cs-stack/", thumbnail: ticketingResearchThumbnail },
+        { title: "Bella Santé", url: "https://www.tidio.com/blog/bella-sante-case-study/", thumbnail: bellaSanteThumbnail, description: "Real-world success story demonstrating transformative customer engagement strategies in spa and wellness industry." },
+        { title: "Lyro", url: "https://www.tidio.com/blog/lyro-case-study/", thumbnail: lyroThumbnail, description: "Innovative AI chatbot implementation case study showcasing measurable business impact and conversion improvements." },
+        { title: "Integrating ticketing into your CS stack", url: "https://www.tidio.com/blog/integrating-ticketing-into-your-cs-stack/", thumbnail: ticketingResearchThumbnail, description: "Strategic research on seamlessly incorporating ticketing systems into modern customer service technology ecosystems." },
       ],
     },
   ];
