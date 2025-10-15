@@ -33,7 +33,9 @@ import aiBiasesThumbnail from "@/assets/thumbnails/ai-biases.jpg";
 import shoppingAssistantThumbnail from "@/assets/thumbnails/shopping-assistant.jpg";
 import chatbotBusinessThumbnail from "@/assets/thumbnails/chatbot-business.jpg";
 import aiCustomerServiceThumbnail from "@/assets/thumbnails/ai-customer-service.jpg";
-import caseStudyThumbnail from "@/assets/thumbnails/case-study.jpg";
+import bellaSanteThumbnail from "@/assets/thumbnails/bella-sante.jpg";
+import lyroThumbnail from "@/assets/thumbnails/lyro.jpg";
+import ticketingResearchThumbnail from "@/assets/thumbnails/ticketing-research.jpg";
 
 const Index = () => {
   const metrics = [
@@ -142,18 +144,9 @@ const Index = () => {
     {
       title: "Case studies edited by me",
       samples: [
-        { title: "Integratec", url: "https://www.tidio.com/blog/integratec-case-study/", thumbnail: caseStudyThumbnail },
-        { title: "Gecko Hospitality", url: "https://www.tidio.com/blog/gecko-hospitality-case-study/", thumbnail: caseStudyThumbnail },
-        { title: "eye-oo", url: "https://www.tidio.com/blog/eye-oo-case-study/", thumbnail: caseStudyThumbnail },
-        { title: "Bella Santé", url: "https://www.tidio.com/blog/bella-sante-case-study/", thumbnail: caseStudyThumbnail },
-        { title: "Wulff Beltton", url: "https://www.tidio.com/blog/wulff-beltton-case-study/", thumbnail: caseStudyThumbnail },
-        { title: "ADT", url: "https://www.tidio.com/blog/adt-case-study/", thumbnail: caseStudyThumbnail },
-        { title: "Endeksa", url: "https://www.tidio.com/blog/endeksa-case-study/", thumbnail: caseStudyThumbnail },
-        { title: "Suitor", url: "https://www.tidio.com/blog/suitor-case-study/", thumbnail: caseStudyThumbnail },
-        { title: "Shockbyte", url: "https://www.tidio.com/blog/shockbyte-case-study/", thumbnail: caseStudyThumbnail },
-        { title: "Lyro", url: "https://www.tidio.com/blog/lyro-case-study/", thumbnail: caseStudyThumbnail },
-        { title: "Procosmet", url: "https://www.tidio.com/blog/procosmet-case-study/", thumbnail: caseStudyThumbnail },
-        { title: "Integrating ticketing into your CS stack", url: "https://www.tidio.com/blog/integrating-ticketing-into-your-cs-stack/", thumbnail: caseStudyThumbnail },
+        { title: "Bella Santé", url: "https://www.tidio.com/blog/bella-sante-case-study/", thumbnail: bellaSanteThumbnail },
+        { title: "Lyro", url: "https://www.tidio.com/blog/lyro-case-study/", thumbnail: lyroThumbnail },
+        { title: "Integrating ticketing into your CS stack", url: "https://www.tidio.com/blog/integrating-ticketing-into-your-cs-stack/", thumbnail: ticketingResearchThumbnail },
       ],
     },
   ];
