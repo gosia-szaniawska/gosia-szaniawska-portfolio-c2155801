@@ -27,21 +27,15 @@ const Hero = () => {
       </div>
       
       <div 
-        className="aspect-[4/5] rounded-[var(--radius)] overflow-hidden shadow-lg flex items-center justify-center"
+        className="aspect-[4/5] rounded-[var(--radius)] overflow-hidden shadow-lg"
         style={{ background: 'var(--gradient-portrait)' }}
         aria-label="Profile portrait area"
       >
-        {portraitSrc ? (
+        {portraitSrc && (
           <img
             src={portraitSrc}
             alt="Portrait of Gosia Szaniawska-Schiavo"
             className="w-full h-full object-cover"
-          />
-        ) : (
-          <img
-            src="/placeholder.svg"
-            alt="Profile portrait placeholder"
-            className="w-full h-full object-cover opacity-20"
           />
         )}
       </div>
