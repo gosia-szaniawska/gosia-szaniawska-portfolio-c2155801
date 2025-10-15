@@ -6,8 +6,6 @@ interface SampleCardProps {
 }
 
 const SampleCard = ({ title, url }: SampleCardProps) => {
-  const hostname = new URL(url).hostname.replace('www.', '');
-
   return (
     <article className="flex gap-3 items-center bg-card border border-border/50 rounded-2xl p-3 shadow-sm hover:shadow-md transition-shadow">
       <div
@@ -27,7 +25,6 @@ const SampleCard = ({ title, url }: SampleCardProps) => {
         >
           {title}
         </a>
-        <p className="text-sm text-muted-foreground truncate">{hostname}</p>
       </div>
     </article>
   );
