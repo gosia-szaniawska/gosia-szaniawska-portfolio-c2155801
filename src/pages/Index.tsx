@@ -21,7 +21,7 @@ import {
 // Thumbnail imports
 import metaverseThumbnail from "@/assets/thumbnails/metaverse.jpg";
 import aiDatingThumbnail from "@/assets/thumbnails/ai-dating.jpg";
-import grammarThumbnail from "@/assets/thumbnails/grammar.jpg";
+import grammarThumbnail from "@/assets/thumbnails/grammar-new.jpg";
 import instagramChatbotThumbnail from "@/assets/thumbnails/instagram-chatbot.jpg";
 import chatbotScriptsThumbnail from "@/assets/thumbnails/chatbot-scripts.jpg";
 import createChatbotThumbnail from "@/assets/thumbnails/create-chatbot.jpg";
