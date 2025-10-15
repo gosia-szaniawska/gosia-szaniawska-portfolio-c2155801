@@ -232,7 +232,7 @@ const Index = () => {
             <Button
               asChild
               size="lg"
-              className="rounded-full gap-2.5 shadow-md"
+              className="rounded-full gap-2.5 shadow-md text-black"
               style={{ background: 'var(--gradient-accent)' }}
             >
               <a
@@ -248,7 +248,7 @@ const Index = () => {
             <Button
               asChild
               size="lg"
-              className="rounded-full gap-2.5 shadow-md"
+              className="rounded-full gap-2.5 shadow-md text-black"
               style={{ background: 'var(--gradient-accent)' }}
             >
               <a
