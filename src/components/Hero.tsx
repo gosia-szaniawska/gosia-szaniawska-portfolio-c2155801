@@ -22,7 +22,7 @@ const Hero = () => {
         </h1>
         
         <p className="text-lg lg:text-xl text-muted-foreground">
-          Transformative communicator who can turn complex tech into 5× growth through data-driven storytelling and effective AI-powered content management.
+          Transformative communicator who can turn complex tech into 5× growth through data-driven storytelling and effective, AI-powered content management.
         </p>
         
         <div className="flex flex-wrap gap-3 items-center pt-2">
