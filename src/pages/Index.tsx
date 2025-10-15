@@ -163,18 +163,18 @@ const Index = () => {
           </h2>
           <div className="space-y-4 text-lg text-muted-foreground">
             <p>
-              I'm a content manager, editor, and writer that turns complex tech into stories people actually want to read. I've worked across various industries: from B2B SaaS to AI and translation tech.
+              I'm a content manager, editor, and writer that <span className="bg-gradient-to-r from-pastel-blue via-pastel-violet to-pastel-pink px-2 py-1 rounded">turns complex tech into stories</span> people actually want to read. I've worked across various industries: from B2B SaaS to AI and translation tech.
             </p>
             <p>In the last 8+ years:</p>
             <ul className="list-disc pl-6 space-y-2">
               <li>I've led editorial teams, scaled SEO-driven growth, and ran content ops like a well-oiled machine (without killing creativity).</li>
-              <li>I've thrived in both SEO & GEO, designing editorial systems, and leading cross-functional campaigns.</li>
+              <li>I've thrived in both <span className="bg-gradient-to-r from-pastel-blue via-pastel-violet to-pastel-pink px-2 py-1 rounded">SEO & GEO</span>, designing editorial systems, and leading cross-functional campaigns.</li>
               <li>I've positioned brands as trusted thought leaders with data-driven storytelling, thought-leadership pieces, and case studies.</li>
               <li>I've created and edited content that resonates emotionally and drives engagement + measurable results.</li>
-              <li>I've gained experience in creating multiple content formats: blog posts, landing pages, email streams, ebooks, gated content, long-form & short-form.</li>
+              <li>I've gained experience in <span className="bg-gradient-to-r from-pastel-blue via-pastel-violet to-pastel-pink px-2 py-1 rounded">creating multiple content formats</span>: blog posts, landing pages, email streams, ebooks, gated content, long-form & short-form.</li>
             </ul>
             <p>
-              What makes me tick? First and foremost, I'm dedicated to shaping narratives around technologies that make global communication clearer, more human, and more impactful.
+              What makes me tick? First and foremost, I'm dedicated to <span className="bg-gradient-to-r from-pastel-blue via-pastel-violet to-pastel-pink px-2 py-1 rounded">shaping narratives around technologies that make global communication clearer, more human, and more impactful</span>.
             </p>
           </div>
         </section>
