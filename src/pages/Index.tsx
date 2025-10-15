@@ -214,6 +214,20 @@ const Index = () => {
           <h2 id="contact-title" className="text-3xl sm:text-4xl lg:text-5xl mb-6">
             Let's connect!
           </h2>
+          <div className="space-y-4 text-lg text-muted-foreground mb-6">
+            <p>
+              I've worked fully remote since 2017 (8+ years), operating async across EMEA and the US. I take on B2B contracts, invoice through my own company, and can travel for key workshops, offsites, or launches.
+            </p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>Async-first, timezone-flexible (EMEA ↔ US)</li>
+              <li>B2B contracts; I handle invoicing and taxes via my company</li>
+              <li>Comfortable with distributed teams, clear SLAs, and documented workflows</li>
+              <li>Travel-ready for on-site collaboration when it matters</li>
+            </ul>
+            <p>
+              If you're a top-tier team with a high editorial bar and measurable goals, reach out! Let's see if we're the right fit.
+            </p>
+          </div>
           <div className="flex flex-wrap gap-3">
             <Button
               asChild
