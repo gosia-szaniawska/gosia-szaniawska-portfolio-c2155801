@@ -89,7 +89,12 @@ const Index = () => {
     },
     {
       icon: PenTool,
-      title: "250+ edited • 80+ authored",
+      title: "250+ edited",
+      description: "Long-form content pieces",
+    },
+    {
+      icon: FileText,
+      title: "80+ authored",
       description: "Long-form content pieces",
     },
   ];
