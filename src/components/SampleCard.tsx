@@ -26,7 +26,7 @@ const SampleCard = ({ title, url, thumbnail, description }: SampleCardProps) => 
           href={url}
           target="_blank"
           rel="noopener noreferrer"
-          className="font-semibold text-foreground hover:text-primary transition-colors no-underline block truncate"
+          className="font-semibold text-foreground hover:text-primary transition-colors no-underline block"
           aria-label={`Open sample: ${title}`}
         >
           {title}
