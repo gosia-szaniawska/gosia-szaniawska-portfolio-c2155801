@@ -159,7 +159,7 @@ const Index = () => {
         {/* About Me Section */}
         <section className="mb-16 lg:mb-24" aria-labelledby="about-title">
           <h2 id="about-title" className="text-3xl sm:text-4xl lg:text-5xl mb-6">
-            About me
+            About me →
           </h2>
           <div className="space-y-4 text-lg text-muted-foreground">
             <p>
@@ -182,7 +182,7 @@ const Index = () => {
         {/* Metrics Section */}
         <section className="mb-16 lg:mb-24" aria-labelledby="metrics-title">
           <h2 id="metrics-title" className="text-3xl sm:text-4xl lg:text-5xl mb-6">
-            Some of my achievements in numbers
+            Some of my achievements in numbers →
           </h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4" role="list">
             {metrics.map((metric, index) => (
@@ -194,7 +194,7 @@ const Index = () => {
         {/* Samples Section */}
         <section className="mb-16 lg:mb-24" aria-labelledby="samples-title">
           <h2 id="samples-title" className="text-3xl sm:text-4xl lg:text-5xl mb-8">
-            My writing and editing samples
+            My writing and editing samples →
           </h2>
           
           {sampleSections.map((section, sectionIndex) => (
@@ -212,7 +212,7 @@ const Index = () => {
         {/* Contact Section */}
         <section className="mb-12" aria-labelledby="contact-title">
           <h2 id="contact-title" className="text-3xl sm:text-4xl lg:text-5xl mb-6">
-            Let's connect!
+            Let's connect! →
           </h2>
           <div className="space-y-4 text-lg text-muted-foreground mb-6">
             <p>
