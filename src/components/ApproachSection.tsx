@@ -65,7 +65,7 @@ const ApproachSection = () => {
           return (
             <div key={index} className="flex items-center flex-1">
               <article
-                className="bg-card border border-border rounded-xl p-3 shadow-elegant w-full h-[200px] flex flex-col"
+                className="bg-card border border-border rounded-xl p-3 shadow-elegant w-full h-[240px] flex flex-col"
                 role="listitem"
                 aria-labelledby={`phase-${index}`}
               >
