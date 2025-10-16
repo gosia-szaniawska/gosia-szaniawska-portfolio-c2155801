@@ -96,6 +96,7 @@ const ApproachSection = () => {
           grid-template-columns: repeat(5, minmax(0, 1fr));
           gap: clamp(10px, 2vw, 16px);
           align-items: stretch;
+          position: relative;
         }
         
         .phase {
@@ -103,6 +104,7 @@ const ApproachSection = () => {
           display: flex;
           flex-direction: column;
           box-sizing: border-box;
+          position: relative;
         }
         
         .phase * {
@@ -126,6 +128,36 @@ const ApproachSection = () => {
           word-break: break-word;
         }
         
+        .phase:not(:last-child)::after {
+          content: '';
+          position: absolute;
+          top: 50%;
+          right: -12px;
+          transform: translateY(-50%) rotate(0deg);
+          width: 24px;
+          height: 24px;
+          border-radius: 50%;
+          background: radial-gradient(circle at center,
+            hsl(var(--pastel-blue)) 0%, hsl(var(--pastel-violet)) 45%, hsl(var(--pastel-pink)) 100%);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          box-shadow: 0 0 6px rgba(20,14,56,0.08);
+          z-index: 1;
+        }
+        
+        .phase:not(:last-child)::before {
+          content: '→';
+          position: absolute;
+          top: 50%;
+          right: -2px;
+          transform: translateY(-50%);
+          font-weight: 600;
+          font-size: 14px;
+          color: hsl(var(--foreground));
+          z-index: 2;
+        }
+        
         @media (max-width: 1100px) {
           .approach-grid {
             grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -135,6 +167,11 @@ const ApproachSection = () => {
         @media (max-width: 720px) {
           .approach-grid {
             grid-template-columns: 1fr;
+          }
+          
+          .phase::after,
+          .phase::before {
+            display: none;
           }
         }
       `}</style>
