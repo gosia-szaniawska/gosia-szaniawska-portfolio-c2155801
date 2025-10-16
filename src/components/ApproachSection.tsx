@@ -55,8 +55,8 @@ const ApproachSection = () => {
 
   return (
     <section className="approach mb-12 lg:mb-16" aria-labelledby="approach-title">
-      <h2 id="approach-title" className="text-2xl sm:text-3xl lg:text-4xl mb-4">
-        What I actually do: 360° Content Approach →
+      <h2 id="approach-title" className="text-3xl sm:text-4xl lg:text-5xl mb-6">
+        What I actually do: 360° content approach →
       </h2>
       <div className="approach-grid">
         {phases.map((phase, index) => {
