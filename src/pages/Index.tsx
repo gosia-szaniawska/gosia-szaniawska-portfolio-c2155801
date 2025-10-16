@@ -224,8 +224,8 @@ const Index = () => {
               I've worked <span className="bg-gradient-to-r from-pastel-blue via-pastel-violet to-pastel-pink px-2 py-1 rounded">fully remote since 2017 (8+ years)</span> and here's how I keep it rolling:
             </p>
             <ul className="list-disc pl-6 space-y-2">
-              <li>Async-first, <span className="bg-gradient-to-r from-pastel-blue via-pastel-violet to-pastel-pink px-2 py-1 rounded">timezone-flexible (EMEA ↔ US)</span> B2B contracts</li>
-              <li>I handle <span className="bg-gradient-to-r from-pastel-blue via-pastel-violet to-pastel-pink px-2 py-1 rounded">invoicing and taxes via my company</span></li>
+              <li>Async-first, <span className="bg-gradient-to-r from-pastel-blue via-pastel-violet to-pastel-pink px-2 py-1 rounded">timezone-flexible (EMEA ↔ US)</span></li>
+              <li>B2B contacts; I handle <span className="bg-gradient-to-r from-pastel-blue via-pastel-violet to-pastel-pink px-2 py-1 rounded">invoicing and taxes via my company</span></li>
               <li>Comfortable with distributed teams, clear SLAs, and documented workflows</li>
               <li>Travel-ready for on-site collaboration key workshops, offsites, or launches</li>
             </ul>
