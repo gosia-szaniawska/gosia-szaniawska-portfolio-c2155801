@@ -60,48 +60,48 @@ const ApproachSection = () => {
       <h2 id="approach-title" className="text-2xl sm:text-3xl lg:text-4xl mb-4">
         What I actually do: 360° Content Approach →
       </h2>
-      <div className="flex flex-wrap items-start justify-center gap-2">
+      <div className="flex items-center justify-between gap-2">
         {phases.map((phase, index) => {
           const Icon = phase.icon;
           const isLast = index === phases.length - 1;
           return (
-            <div key={index} className="flex items-center">
+            <div key={index} className="flex items-center flex-1">
               <article
-                className="bg-card border border-border rounded-xl p-2.5 shadow-elegant w-[170px] h-[140px] flex flex-col"
+                className="bg-card border border-border rounded-xl p-3 shadow-elegant w-full min-h-[180px] flex flex-col"
                 role="listitem"
                 aria-labelledby={`phase-${index}`}
               >
                 <div
-                  className="w-8 h-8 rounded-lg grid place-items-center mb-1.5 border border-border flex-shrink-0"
+                  className="w-10 h-10 rounded-lg grid place-items-center mb-2 border border-border flex-shrink-0"
                   style={{
                     background:
                       "linear-gradient(145deg, hsl(var(--pastel-blue)), hsl(var(--pastel-violet)))",
                   }}
                   aria-hidden="true"
                 >
-                  <Icon className="w-4 h-4" />
+                  <Icon className="w-5 h-5" />
                 </div>
-                <h3 id={`phase-${index}`} className="font-bold text-sm mb-1 flex-shrink-0">
+                <h3 id={`phase-${index}`} className="font-bold text-base mb-2 flex-shrink-0">
                   {phase.title}
                 </h3>
-                <ul className="space-y-0.5 text-muted-foreground text-[0.7rem] pl-3 list-disc overflow-hidden">
+                <ul className="space-y-1 text-muted-foreground text-[0.8rem] pl-4 list-disc">
                   {phase.items.map((item, itemIndex) => (
-                    <li key={itemIndex} className="leading-tight">{item}</li>
+                    <li key={itemIndex} className="leading-snug">{item}</li>
                   ))}
                 </ul>
               </article>
               
               {!isLast && (
-                <div className="flex justify-center items-center px-2">
+                <div className="flex justify-center items-center px-2 flex-shrink-0">
                   <div
-                    className="w-7 h-7 rounded-full grid place-items-center border border-border flex-shrink-0"
+                    className="w-9 h-9 rounded-full grid place-items-center border border-border"
                     style={{
                       background:
                         "linear-gradient(135deg, hsl(var(--pastel-pink)), hsl(var(--pastel-blue)))",
                     }}
                     aria-hidden="true"
                   >
-                    <ArrowRight className="w-3.5 h-3.5" />
+                    <ArrowRight className="w-4 h-4" />
                   </div>
                 </div>
               )}
