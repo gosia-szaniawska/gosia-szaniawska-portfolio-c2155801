@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import MetricCard from "@/components/MetricCard";
 import SampleCard from "@/components/SampleCard";
+import ApproachSection from "@/components/ApproachSection";
 import { Button } from "@/components/ui/button";
 import {
   TrendingUp,
@@ -179,6 +180,9 @@ const Index = () => {
             </p>
           </div>
         </section>
+
+        {/* 360° Content Approach Section */}
+        <ApproachSection />
 
         {/* Metrics Section */}
         <section className="mb-16 lg:mb-24" aria-labelledby="metrics-title">
