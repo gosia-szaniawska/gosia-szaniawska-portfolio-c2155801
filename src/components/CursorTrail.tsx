@@ -3,6 +3,7 @@ import { useEffect } from "react";
 const CursorTrail = () => {
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
+      // Blue swirl trail
       const trail = document.createElement("div");
       trail.className = "cursor-trail";
       trail.style.left = `${e.clientX}px`;
@@ -14,6 +15,20 @@ const CursorTrail = () => {
       setTimeout(() => {
         trail.remove();
       }, 1000);
+
+      // Pink glitter effect - create randomly
+      if (Math.random() > 0.7) {
+        const glitter = document.createElement("div");
+        glitter.className = "cursor-glitter";
+        glitter.style.left = `${e.clientX + (Math.random() - 0.5) * 30}px`;
+        glitter.style.top = `${e.clientY + (Math.random() - 0.5) * 30}px`;
+        
+        document.body.appendChild(glitter);
+        
+        setTimeout(() => {
+          glitter.remove();
+        }, 800);
+      }
     };
 
     document.addEventListener("mousemove", handleMouseMove);
