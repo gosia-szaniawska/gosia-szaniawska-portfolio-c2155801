@@ -84,7 +84,7 @@ const Index = () => {
     {
       icon: Zap,
       title: "Editorial efficiency +35%",
-      description: "AI-assisted workflows",
+      description: "Cut production time by one-third with AI-assisted workflows",
     },
     {
       icon: Calendar,
