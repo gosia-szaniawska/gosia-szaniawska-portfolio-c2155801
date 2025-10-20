@@ -1,4 +1,6 @@
 import portraitImage from "@/assets/portrait.jpeg";
+import { Button } from "@/components/ui/button";
+import { Linkedin, Mail } from "lucide-react";
 
 const Hero = () => {
 
@@ -12,6 +14,39 @@ const Hero = () => {
         <p className="text-lg lg:text-xl text-muted-foreground">
           Transformative communicator who can turn complex tech into 5× growth through data-driven storytelling and effective, AI-powered content management.
         </p>
+        
+        <div className="flex flex-wrap gap-3">
+          <Button
+            asChild
+            size="lg"
+            className="rounded-full gap-2.5 shadow-md text-black"
+            style={{ background: 'var(--gradient-accent)' }}
+          >
+            <a
+              href="https://www.linkedin.com/in/gosia-szaniawska/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Open LinkedIn profile"
+            >
+              <Linkedin className="w-5 h-5" color="black" />
+              <span>LinkedIn</span>
+            </a>
+          </Button>
+          <Button
+            asChild
+            size="lg"
+            className="rounded-full gap-2.5 shadow-md text-black"
+            style={{ background: 'var(--gradient-accent)' }}
+          >
+            <a
+              href="mailto:szaniawska.malgorzata@gmail.com"
+              aria-label="Send an email to Gosia"
+            >
+              <Mail className="w-5 h-5" color="black" />
+              <span>szaniawska.malgorzata@gmail.com</span>
+            </a>
+          </Button>
+        </div>
       </div>
       
       <div 
